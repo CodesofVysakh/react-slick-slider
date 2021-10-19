@@ -24,6 +24,8 @@ body {
 	overflow-x: hidden;
 	min-width: 320px;
 	font-weight: 400;
+	background-color: #fec802;
+
 }
 input,textarea,select{
 	font-family:  Arial, Helvetica, sans-serif;
@@ -63,12 +65,13 @@ p{
 
 header {
     background-color: #1C2C40;
-    color: #fff;
+    color: rgb(60, 214, 235);
 	text-align: center;
 	padding: 30px;
 }
 header h3 {
 	font-size: 50px;
+	font-weight: 900;
 }
 #slider-container  div.container{
 	padding: 50px 0;
@@ -76,4 +79,19 @@ header h3 {
 }
 #slider-container  div.container img{
 	margin: 0 auto;
+	border-radius: 12px;
+	margin-bottom: 10px;
+}
+#slider-container  div.container h6{
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	background-color: #fff;
+	padding: 5px 0;
+	width: 35%;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+#slider-container  div.container p{
+	font-style: italic;
 }

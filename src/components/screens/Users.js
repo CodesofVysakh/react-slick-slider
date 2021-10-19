@@ -9,7 +9,8 @@ export default function Users() {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
     };
     const [person, setPerson] = useState([]);
 
